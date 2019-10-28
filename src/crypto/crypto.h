@@ -2,7 +2,6 @@
 // Copyright (c) 2014-2018, The Monero Project
 // Copyright (c) 2016-2018, The Karbowanec developers
 // Copyright (c) 2018-2019, The TurtleCoin Developers
-// Copyright (c) 2019, The LebCash Developers
 //
 // Please see the included LICENSE file for more information.
 
