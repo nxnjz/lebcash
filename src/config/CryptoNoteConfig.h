@@ -1,6 +1,7 @@
 // Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
 // Copyright (c) 2014-2018, The Monero Project
 // Copyright (c) 2018-2019, The TurtleCoin Developers
+// Copyright (c) 2019, The LebCash Developers
 //
 // Please see the included LICENSE file for more information.
 
@@ -61,9 +62,9 @@ namespace CryptoNote
 
         const char GENESIS_COINBASE_TX_HEX[] = "00f0a79af89ec21500002101f722f7392b562803fa88b953b2d4c47817689396cbd40027a87fb591d979f01f";
 
-        //static_assert(
-         //   sizeof(GENESIS_COINBASE_TX_HEX) / sizeof(*GENESIS_COINBASE_TX_HEX) != 1,
-          //  "GENESIS_COINBASE_TX_HEX must not be empty.");
+        static_assert(
+            sizeof(GENESIS_COINBASE_TX_HEX) / sizeof(*GENESIS_COINBASE_TX_HEX) != 1,
+            "GENESIS_COINBASE_TX_HEX must not be empty.");
 
         /* This is the unix timestamp of the first "mined" block (technically block 2, not the genesis block)
            You can get this value by doing "print_block 2" in TurtleCoind. It is used to know what timestamp
