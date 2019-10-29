@@ -1,5 +1,5 @@
 // Copyright (c) 2018, The TurtleCoin Developers
-// Copyright (c) 2019, The LebCash Developers
+// Copyright (c) 2019, The LebCoin Developers
 //
 // Please see the included LICENSE file for more information.
 
@@ -14,7 +14,7 @@ namespace WalletConfig
     const std::string_view addressPrefix = "cL";
 
     /* Your coins 'Ticker', e.g. Monero = XMR, Bitcoin = BTC */
-    const std::string ticker = "LBCH";
+    const std::string ticker = "LBX";
 
     /* The filename to output the CSV to in save_csv */
     const std::string csvFilename = "transactions.csv";
@@ -24,14 +24,14 @@ namespace WalletConfig
     const std::string addressBookFilename = ".addressBook.json";
 
     /* The name of your deamon */
-    const std::string daemonName = "LebCashd";
+    const std::string daemonName = "LebCoind";
 
     /* The name to call this wallet */
-    const std::string walletName = "lebcash-zedwallet";
+    const std::string walletName = "lebcoin-zedwallet";
 
     /* The name of service/walletd, the programmatic rpc interface to a
        wallet */
-    const std::string walletdName = "lebcash-service";
+    const std::string walletdName = "lebcoin-service";
 
     /* The full name of your crypto */
     const std::string coinName = std::string(CryptoNote::CRYPTONOTE_NAME);

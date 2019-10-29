@@ -1,7 +1,7 @@
 // Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
 // Copyright (c) 2014-2018, The Monero Project
 // Copyright (c) 2018-2019, The TurtleCoin Developers
-// Copyright (c) 2019, The LebCash Developers
+// Copyright (c) 2019, The LebCoin Developers
 //
 // Please see the included LICENSE file for more information.
 
@@ -252,7 +252,7 @@ namespace CryptoNote
         const char MINER_CONFIG_FILE_NAME[] = "miner_conf.json";
     } // namespace parameters
 
-    const char CRYPTONOTE_NAME[] = "LebCash";
+    const char CRYPTONOTE_NAME[] = "LebCoin";
 
     const uint8_t TRANSACTION_VERSION_1 = 1;
 
