@@ -11,7 +11,7 @@ RestartSec=10s
 #This provides a virtual console (use conspy to connect) for directly viewing stdout/stderr and typing LebCoind commands 
 StandardInput=tty-force
 TTYVHangup=yes
-TTYPath=/dev/tty19
+TTYPath=/dev/tty29
 TTYReset=yes
 
 [Install]
