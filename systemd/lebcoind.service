@@ -1,0 +1,19 @@
+[Unit]
+Description="LebCoin Daemon"
+Requires=network.target
+
+[Service]
+Type=simple
+#Change this path
+ExecStart=/path/to/LebCoind
+Restart=always
+RestartSec=10s
+#This provides a virtual console (use conspy to connect) for directly viewing stdout/stderr and typing LebCoind commands 
+StandardInput=tty-force
+TTYVHangup=yes
+TTYPath=/dev/tty19
+TTYReset=yes
+
+[Install]
+WantedBy=multi-user.target
+
